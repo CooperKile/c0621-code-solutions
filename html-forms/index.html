@@ -6,31 +6,43 @@
 <body>
   <h1>Coding Form!</h1>
   <form>
-    <label for="email">Email</label> <br />
-      <input id="email" type="text" name="email" size="15" maxlength="50"> <br />
-
-    <label for="coding">Why is coding cool?</label> <br />
+    <div>
+    <div><label for="email">Email</label></div>
+      <input id="email" type="text" name="email" size="15" maxlength="50">
+    </div>
+    <div>
+    <div><label for="coding">Why is coding cool?</label></div>
       <select id ="coding" name="coding">
-        <option value="select">Select One</option>
+        <option value="">Select One</option>
         <option value ="optionone">Because its intersting</option>
         <option value="optiontwo">Because its fun</option>
         <option value="optionthree">Because its powerful</option>
-      </select> <br />
+      </select>
+    </div>
 
-    <p>Favorite Language (choose one) <br />
+    <div>
+      <p>Favorite Language (choose one)</p>
       <input type="radio" name="language" value="html" id="html" />
       <label for="html">HTML</label>
       <input type="radio" name="language" value="css" id="css" />
       <label for="css">CSS</label>
       <input type="radio" name="language" value="javascript" id="javascript"/>
       <label for ="javascript">JavaScript</label>
-     </p>
+    </div>
 
-    <label id="info" for="info">Would you like to sign up for more information?</label> <br />
-      <input type="checkbox" name="yes" value="sign" /> Sign me up! <br />
+    <div>
+      <p>Would you like to sign up for more information?</p>
+      <input type="checkbox" name="yes" value="sign" id ="info" />
+      <label for="info">Sign me up!</label> <br />
+    </div>
 
-    <label id="textarea" for="textarea">Comments</label> <br />
+    <div>
+      <label id="textarea" for="textarea">Comments</label> <br />
       <textarea name ="comments" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <input type="submit" value="submit">
+    </div>
   </form>
 </body>
 </html>
