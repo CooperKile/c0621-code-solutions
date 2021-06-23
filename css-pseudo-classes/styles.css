@@ -12,13 +12,14 @@ button {
 button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
-thead {
+th {
   background-color: black;
   color: white;
 }
 
-.row-gray {
+tr:nth-child(odd) {
   background-color: rgb(206, 206, 206);
 }
