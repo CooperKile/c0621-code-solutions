@@ -1,0 +1,30 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-full {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  width: 40%;
+}
+
+.column-one-fourth {
+  flex-basis: inherit;
+}
+
+.column-two-thirds {
+  width: 70%;
+}
+
+img {
+  width: 100%;
+}
