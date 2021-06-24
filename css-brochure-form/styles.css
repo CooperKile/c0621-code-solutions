@@ -54,7 +54,16 @@ select {
   border-style: solid;
 }
 
-button {
+.styled-button {
   text-align: right;
-  color: red;
+}
+
+.submit {
+  background-color: rgb(248, 107, 107);
+  border-radius: 100px;
+  height: 35px;
+  width: 95px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
 }
