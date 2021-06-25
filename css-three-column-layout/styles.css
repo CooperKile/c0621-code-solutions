@@ -6,6 +6,7 @@ h2 {
   font-family: 'Lato', sans-serif;
   color: white;
   font-weight: 400;
+  font-size: 28px;
 }
 
 h3 {
@@ -38,12 +39,21 @@ p {
 
 .row {
   display: flex;
+  padding-bottom: 20px;
+}
+
+.circle {
+  border: white;
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-  background: white;
-  padding: 10px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  border-style: none;
+  width: 50%;
 }
