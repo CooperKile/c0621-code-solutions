@@ -6,30 +6,25 @@
 
 .pokemon > img {
   width: 150px;
-
-  /* your code here */
+  position: relative;
 }
 
 #bulbasaur {
-  position: relative;
+  top: 0;
 }
 
 #charmander {
-  position: relative;
   top: 25px;
 }
 
 #squirtle {
-  position: relative;
   top: 65px;
 }
 
 #pikachu {
-  position: relative;
   top: 160px;
 }
 
 #jigglypuff {
-  position: relative;
   top: 310px;
 }
