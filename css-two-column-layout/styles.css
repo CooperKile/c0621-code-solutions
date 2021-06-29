@@ -66,3 +66,13 @@ button {
   width: 100%;
   text-align: center;
 }
+
+.column-third {
+  flex-basis: 0;
+  width: auto;
+}
+
+.column-two-thirds {
+  flex-basis: auto;
+  width: fit-content;
+}
