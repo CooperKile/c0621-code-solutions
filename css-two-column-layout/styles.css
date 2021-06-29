@@ -68,11 +68,10 @@ button {
 }
 
 .column-third {
-  flex-basis: 0;
+  flex-basis: 33%;
   width: auto;
 }
 
 .column-two-thirds {
-  flex-basis: auto;
-  width: fit-content;
+  flex-basis: 66%;
 }
