@@ -9,11 +9,11 @@ var orderHistory = [
     delivered: 'Aug 8, 2020',
     item: [
       {
-        image: [''],
-        title: ['Javascript for impatient programmers'],
-        author: ['Rauschmayer, Dr. Axel'],
-        return: ['Return window closed on Sep 7, 2020'],
-        price: [31.55]
+        image: '',
+        title: 'Javascript for impatient programmers',
+        author: 'Rauschmayer, Dr. Axel',
+        return: 'Return window closed on Sep 7, 2020',
+        price: 31.55
       }
     ]
   },
@@ -28,11 +28,11 @@ var orderHistory = [
     status: 'Your package was delivered. It was handed directly to a resident.',
     item: [
       {
-        image: [''],
-        title: ['The Timeless Way of Building'],
-        author: ['Alexander, Christopher'],
-        return: ['Return window closed on Aug 19, 2020'],
-        price: [41.33]
+        image: '',
+        title: 'The Timeless Way of Building',
+        author: 'Alexander, Christopher',
+        return: 'Return window closed on Aug 19, 2020',
+        price: 41.33
       }
     ]
   },
@@ -47,10 +47,10 @@ var orderHistory = [
     status: 'Your package was delivered. It was handed directly to a resident',
     item: [
       {
-        image: [''],
-        title: ['Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Apater---'],
-        return: ['Return window closed on Aug 5, 2020'],
-        price: [15.98]
+        image: '',
+        title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Apater---',
+        return: 'Return window closed on Aug 5, 2020',
+        price: 15.98
       }
     ]
   },
@@ -64,17 +64,17 @@ var orderHistory = [
     delivered: 'Jul 5, 2020',
     item: [
       {
-        images: ['', ''],
-        title: ['GameCube Controller'],
-        return: ['Return window closed on Aug 4, 2020'],
-        price: [94.95]
+        images: '',
+        title: 'GameCube Controller',
+        return: 'Return window closed on Aug 4, 2020',
+        price: 94.95
       },
       {
-        images: [''],
-        title: ['The Art of Sql'],
-        author: ['Farlout, Stephanie'],
-        return: ['Return window closed on Aug 4, 2020'],
-        price: [33.99]
+        images: '',
+        title: 'The Art of Sql',
+        author: 'Farlout, Stephanie',
+        return: 'Return window closed on Aug 4, 2020',
+        price: 33.99
       }
     ]
   }
