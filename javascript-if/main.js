@@ -60,6 +60,8 @@ function categorizeAcidity(pH) {
   }
   if (pH < 0 || pH > 14) {
     return 'invalid pH level';
+  } else {
+    return 'neutral';
   }
 }
 
