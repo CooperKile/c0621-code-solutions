@@ -65,10 +65,16 @@ var orderHistory = [
     item: [
       {
         images: ['', ''],
-        title: ['GameCube Controller', 'The Art of Sql'],
+        title: ['GameCube Controller'],
+        return: ['Return window closed on Aug 4, 2020'],
+        price: [94.95]
+      },
+      {
+        images: [''],
+        title: ['The Art of Sql'],
         author: ['Farlout, Stephanie'],
         return: ['Return window closed on Aug 4, 2020'],
-        price: [94.95, 33.99]
+        price: [33.99]
       }
     ]
   }
