@@ -22,8 +22,8 @@ var getAreaResult = getArea(10, 6);
 console.log('getAreaResult:', getAreaResult);
 
 function getFirstName(person) {
-  var firstName = person;
-  return firstName;
+  var x = person.firstName;
+  return x;
 }
 
 var getFirstNameResult = getFirstName({ firstName: 'Cooper', lastName: 'Kile' });
