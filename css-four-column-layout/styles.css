@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.column-full {
+  flex-direction: column;
+  width: 100%;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 60px;
+}
+
+.row {
+  display: flex;
+}
+
+.image {
+  height: 350px;
+}
+
+h3 {
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: smaller;
+}
