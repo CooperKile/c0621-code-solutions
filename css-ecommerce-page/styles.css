@@ -7,7 +7,7 @@ div {
 }
 
 body {
-  display: block;
+  align-content: center;
 }
 
 .container {
@@ -30,7 +30,9 @@ body {
 }
 
 .column-one-fifth {
+  flex-direction: column;
   width: 20%;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -40,13 +42,13 @@ body {
 
 .item {
   flex-wrap: nowrap;
-  font-size: 15px;
+  font-size: 13px;
   display: inline-block;
 }
 
 .size {
   flex-wrap: nowrap;
-  font-size: 15px;
+  font-size: 13px;
   display: inline-block;
   color: gainsboro;
   border-left: gainsboro;
@@ -60,7 +62,7 @@ body {
 }
 
 .retail {
-  font-size: 15px;
+  font-size: 13px;
   color: gainsboro;
   flex-wrap: nowrap;
   display: inline-block;
