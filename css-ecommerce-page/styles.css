@@ -32,12 +32,13 @@ body {
 .column-one-fifth {
   flex-direction: column;
   width: 20%;
-  height: auto;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .image {
-  height: 350px;
+  height: 270px;
+  width: 100%;
 }
 
 .item {
