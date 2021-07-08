@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+body.on {
+  background-color: #fef9f1;
+}
+
+body.off {
+  background-color: rgb(17, 17, 17);
+}
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-bulb {
+  background-color: #faeb84;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  box-shadow: 1px 20px 10px #f8f1c0;
+}
+
+.light-bulb.on {
+  background-color: #faeb84;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  box-shadow: 1px 20px 10px #f8f1c0;
+}
+
+.light-bulb.off {
+  background-color: rgb(22, 22, 22);
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  box-shadow: 1px -20px 5px rgb(0, 0, 0);
+}
