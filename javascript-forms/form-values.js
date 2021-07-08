@@ -7,5 +7,5 @@ $form.addEventListener('submit', function (event) {
     message: $form.elements.message.value
   };
   console.log('valueObj:', valueObj);
-  document.querySelector('#contact-form').reset();
+  $form.reset();
 });
