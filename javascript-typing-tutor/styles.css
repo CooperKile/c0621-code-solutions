@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin: 20%;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+
+.row {
+  align-items: center;
+}
+
+.active {
+  border-bottom: solid black;
+}
+
+.done {
+  color: chartreuse;
+}
+
+.wrong {
+  color: red;
+  border-bottom: solid red;
+}
