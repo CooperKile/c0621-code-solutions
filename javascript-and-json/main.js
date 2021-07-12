@@ -13,10 +13,10 @@ var books = [
     title: 'The Silmarillion',
     author: 'JRR Tolkien',
     isbn: '109876543211'
-  }];
+  }
+];
 console.log(JSON.stringify(books));
 
-console.log(JSON.parse(JSON.stringify({
-  sudent: 'Cooper',
-  number: 'id'
-})));
+var student = '{"student": "Cooper", "id": 900}';
+var studentParse = JSON.parse(student);
+console.log(studentParse);
