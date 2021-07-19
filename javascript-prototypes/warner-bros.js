@@ -18,7 +18,7 @@ var dot = {
   role: 'sister'
 };
 
-var description = {
+var warnerPrototype = {
   describe: function () {
     var describe = this.name + ' is a ' +
     this.age + '-year-old Warner ' + this.role + '.';
@@ -26,6 +26,6 @@ var description = {
   }
 };
 
-Object.setPrototypeOf(yakko, description);
-Object.setPrototypeOf(wakko, description);
-Object.setPrototypeOf(dot, description);
+Object.setPrototypeOf(yakko, warnerPrototype);
+Object.setPrototypeOf(wakko, warnerPrototype);
+Object.setPrototypeOf(dot, warnerPrototype);
