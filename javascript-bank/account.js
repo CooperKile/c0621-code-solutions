@@ -31,8 +31,5 @@ Account.prototype.getBalance = function () {
       balance -= this.transactions[i].amount;
     }
   }
-  if (this.transactions.length === 0) {
-    return 0;
-  }
   return balance;
 };
