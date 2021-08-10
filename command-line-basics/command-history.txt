@@ -1,0 +1,70 @@
+    1  exit
+    2  whoami
+    3  git config --global user.name "Cooper Kile"
+    4  git config --global user.email "cooperk1807@gmail.com"
+    5  git config --global --list
+    6  exit
+    7  cd ~/repos/c0621-code-solutions/
+    8  cd command-line-basics
+    9  pwd
+   10  cat laziness.txt
+   11  cat impatience.txt
+   12  cat hubris.txt
+   13  cat laziness.txt impatience.txt hubris.txt
+   14  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   15  cat three-virtues.txt
+   16  man ls
+   17  ls -a
+   18  ls -F
+   19  ls lfz-staff/
+   20  ls -a lfz-staff
+   21  ls -F lfz-staff
+   22  ls -aF lfz-staff > lfz-staff/contents.txt
+   23  cat lfz-staff/contents.txt
+   24  man pwd
+   25  pwd
+   26  pwd > i-was-here.txt
+   27  ls pwd
+   28  ls wd
+   29  ls -a pwd
+   30  ls -a
+   31  cat i-was-here.txt
+   32  echo 'Hello, World!'
+   33  echo echo 'Hello, World!' > hello.txt
+   34  ls
+   35  touch tag-youre-it.txt
+   36  touch boop.txt > snoot/
+   37  touch boop.txt snoot/
+   38  ls
+   39  man mkdir
+   40  mkdir parent
+   41  ls
+   42  mkdir -p parent/child/grandchild
+   43  touch .gitkeep parent/child/grandchild
+   44  ls - a
+   45  ls -a
+   46  man mv
+   47  mv pokimans > pokemon
+   48  mv pokimans pokemon
+   49  mv pokiemans to pokemon
+   50  mv pokiemans > pokemon
+   51  man mv
+   52  mv pokiemans pokemon
+   53  ls
+   54  man rm
+   55  man echo
+   56  man ls
+   57  man cp
+   58  man rm
+   59  rm lol.txt
+   60  ls 
+   61  rm -r kill-me/
+   62  ls
+   63  man cp
+   64  cp and-then.txt no-and-then.txt
+   65  ls
+   66  cat and-then.txt
+   67  cat no-and-then.txt
+   68  man history
+   69  history
+   70  history > command-history.txt
