@@ -5,5 +5,5 @@ promise.then(value => {
   console.log(value);
 });
 promise.catch(error => {
-  console.error(error);
+  console.log(error.message);
 });
