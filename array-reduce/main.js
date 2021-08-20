@@ -26,14 +26,14 @@ const product = numbers.reduce(multiply);
 console.log('product:', product);
 const total = (accumulator, currentValue) => {
   if (currentValue.type === 'deposit') {
-    accumulator.amount = accumulator.amount + currentValue.amount;
+    accumulator = accumulator + currentValue.amount;
   } else {
-    accumulator.amount = accumulator.amount - currentValue.amount;
+    accumulator = accumulator - currentValue.amount;
   }
   return accumulator;
 };
-const balance = account.reduce(total);
+const balance = account.reduce(total, 0);
 console.log('balance:', balance);
 const target = (accumulator, currentValue) => Object.assign(accumulator, currentValue);
-const composite = traits.reduce(target);
+const composite = traits.reduce(target, {});
 console.log('composite:', composite);
