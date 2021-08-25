@@ -1,0 +1,53 @@
+
+.switch-off {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: rgb(161, 161, 161);
+  border-radius: 2rem;
+}
+
+.switch-on {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: rgb(24, 128, 10);
+  border-radius: 2rem;
+}
+
+.off {
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  content: "";
+  height: 2.6rem;
+  width: 2.6rem;
+  left: 3px;
+  bottom: 4px;
+}
+
+.on {
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  content: "";
+  height: 2.6rem;
+  width: 2.6rem;
+  left: 3.4rem;
+  bottom: 4px;
+}
+
+#root {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+
+.state {
+  position: absolute;
+  left: 7rem;
+  top: 1rem;
+}
