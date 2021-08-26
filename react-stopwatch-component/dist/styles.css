@@ -1,0 +1,29 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  width: 15em;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.container {
+  height: 20em;
+  width: 20em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: black;
+}
