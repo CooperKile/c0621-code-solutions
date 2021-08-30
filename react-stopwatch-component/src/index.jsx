@@ -8,23 +8,40 @@ class Stopwatch extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+  componentDidMount() {
+    this.timeElapsed = setInterval(
+      () => this.tick(this.timeElapsed++),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.tick);
+  }
+
+  tick() {
+    this.setState({
+      // timeElapsed
+    });
+  }
+
   handleClick() {
     this.setState({});
   }
 
   render() {
     return (
-      <div className="container">
-        <div className="circle">
-          <div className="number">0</div>
-        </div>
-        <i className="fas fa-play"></i>
+    <div className="container">
+      <div className="circle">
+          <div className="number">{this.timeElapsed}</div>
       </div>
-    );
+      <i onClick={this.componentWillUnmount} className="fas fa-play"></i>
+    </div>)
+    ;
   }
 }
 
 ReactDOM.render(
-  Stopwatch,
-  document.getElementById('root')
+  <Stopwatch />,
+  document.querySelector('#root')
 );
